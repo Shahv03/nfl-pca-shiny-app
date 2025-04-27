@@ -7,7 +7,7 @@ library(readr)
 library(plotly)
 
 # Load data
-team_stats <- read_csv("team_stats_2003_2023.csv")
+team_stats <- read_csv("https://raw.githubusercontent.com/Shahv03/nfl-pca-shiny-app/refs/heads/main/team_stats_2003_2023.csv")
 
 # Data Preparation
 tidy_team_stats <- team_stats %>%
